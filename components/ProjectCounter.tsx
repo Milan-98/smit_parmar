@@ -50,7 +50,7 @@ const ProjectCounter = () => {
       </div>
       <a
         className=" border-[.8px]  hover:bg-blue-500 sm:w-44  hover:text-white hover:border-blue-500 font-medium duration-500 px-4 text-center rounded-sm py-2"
-        href="/p.pdf"
+        href="/resume.pdf"
         download="Smit_Parmar's_Resume.pdf"
       >
         Download Resume

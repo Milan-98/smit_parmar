@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 title: "Smit Parmar",
 description: `This is personal website of smit parmar, new graphic designer in this field, this portfolio website is for showcasing his talent and skill to recruiters.`,
 keywords:"smit parmar,smitparmar,smitparmarportfolio website,smit parmar,graphic designer,smit parmar graphic designer",
-alternates: { canonical: "https://milanparmar.site" },
+alternates: { canonical: "https://smit-parmar.versel.app" },
 //------- Twitter -------
 twitter: {
 card: "summary_large_image",
@@ -30,7 +30,7 @@ siteName: "Portfolio website of ",
 title: "smit parmar",
 description: "Personal portfolio of smit parmar's, for showcasing his skills.",
 // Url Of Current Page
-url: "https://milanparmar.site",
+url: "https://smit-parmar.versel.app",
 countryName: "country",
 images: [
 {
@@ -42,13 +42,13 @@ height: 600,
 ],
 },
 // !-------------- SAME Content for all SITE ---------------
-metadataBase: new URL("http://website.com"),
+metadataBase: new URL("https://smit-parmar.versel.app"),
 referrer: "origin",
 generator: "generator",
 publisher: "Versel",
 category: "My Website",
 creator: "next js Team ",
-manifest: "http://website.com/manifest.json",
+manifest: "https://smit-parmar.versel.app/manifest.json",
 // ? ------------ robots ---------------
 robots: {
 index: true,
@@ -62,7 +62,7 @@ nocache: true,
 authors: [
 {
 name: "Smit parmar ",
-url: "https://website.com",
+url: "https://smit-parmar.versel.app",
 },
 ],
 // ? --------------- Icons -------------------
