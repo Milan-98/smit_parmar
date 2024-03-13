@@ -19,7 +19,7 @@ const Portfolio: React.FC = () => {
       modalImageSrc?.slice(1, modalImageSrc?.lastIndexOf(".webp"))
     );
     if (SrcNumber === 1) {
-      SrcNumber = 44;
+      SrcNumber = 54;
     }
 
     setModalImageSrc(`/${SrcNumber - 1}.webp`);
@@ -29,7 +29,7 @@ const Portfolio: React.FC = () => {
     let SrcNumber = Number(
       modalImageSrc?.slice(1, modalImageSrc?.lastIndexOf(".webp"))
     );
-    if (SrcNumber === 43) {
+    if (SrcNumber === 53) {
       SrcNumber = 0;
     }
     setModalImageSrc(`/${SrcNumber + 1}.webp`);
@@ -188,16 +188,16 @@ const Portfolio: React.FC = () => {
               <Photo number={23} handleImageClick={handleImageClick} />
               <Photo number={24} handleImageClick={handleImageClick} />
               <Photo number={25} handleImageClick={handleImageClick} />
+              <Photo number={26} handleImageClick={handleImageClick} />
               <Photo number={27} handleImageClick={handleImageClick} />
               <Photo number={28} handleImageClick={handleImageClick} />
               <Photo number={29} handleImageClick={handleImageClick} />
-            </div>
-            <div className="grid gap-2 sm:grid-cols-2 auto-rows-min lg:gap-4">
               <Photo number={30} handleImageClick={handleImageClick} />
-
               <Photo number={31} handleImageClick={handleImageClick} />
               <Photo number={32} handleImageClick={handleImageClick} />
               <Photo number={33} handleImageClick={handleImageClick} />
+            </div>
+            <div className="grid gap-2 sm:grid-cols-2 auto-rows-min lg:gap-4">
               <Photo number={34} handleImageClick={handleImageClick} />
               <Photo number={35} handleImageClick={handleImageClick} />
               <Photo number={36} handleImageClick={handleImageClick} />
@@ -208,6 +208,16 @@ const Portfolio: React.FC = () => {
               <Photo number={41} handleImageClick={handleImageClick} />
               <Photo number={42} handleImageClick={handleImageClick} />
               <Photo number={43} handleImageClick={handleImageClick} />
+              <Photo number={44} handleImageClick={handleImageClick} />
+              <Photo number={45} handleImageClick={handleImageClick} />
+              <Photo number={46} handleImageClick={handleImageClick} />
+              <Photo number={47} handleImageClick={handleImageClick} />
+              <Photo number={48} handleImageClick={handleImageClick} />
+              <Photo number={49} handleImageClick={handleImageClick} />
+              <Photo number={50} handleImageClick={handleImageClick} />
+              <Photo number={51} handleImageClick={handleImageClick} />
+              <Photo number={52} handleImageClick={handleImageClick} />
+              <Photo number={53} handleImageClick={handleImageClick} />
             </div>
           </section>
           {/* //? -------------- Blender -------- */}
@@ -217,13 +227,13 @@ const Portfolio: React.FC = () => {
             } grid  sm:grid-cols-2 md:grid-cols-3 md:gap-5 `}
           >
             <video width="320" height="240" className="md:my-auto" controls>
-              <source src="44.mp4" type="video/mp4" />
+              <source src="444.mp4" type="video/mp4" />
             </video>
             <video width="320" height="240" controls>
-              <source src="45.mp4" type="video/mp4" />
+              <source src="455.mp4" type="video/mp4" />
             </video>
             <video width="320" height="240" className="md:my-auto" controls>
-              <source src="46.mp4" type="video/mp4" />
+              <source src="466.mp4" type="video/mp4" />
             </video>
           </section>
           {/* //? -------------- Corel ----------- */}

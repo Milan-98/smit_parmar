@@ -29,8 +29,8 @@ const About = () => {
           <li className="text-white font-medium ">Email :</li>
           <li>
             {" "}
-            <a href="mailto:smitparmar.me@gmail.com">
-              smitparmar. me@gmail.com
+            <a href="mailto:parmarsmit505@gmail.com">
+              parmarsmit505@gmail.com
             </a>
           </li>
           <li className="text-white font-medium ">Phone :</li>

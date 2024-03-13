@@ -21,7 +21,7 @@ const ProjectCounter = () => {
     const valueObserver = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          animateValue(0, 50, 3000);
+          animateValue(0, 60, 4000);
         }
       });
     });

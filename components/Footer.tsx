@@ -52,7 +52,7 @@ const Footer = () => {
           </a>
           {/* Email */}
           <a
-            href="mailto:smitparmar.me@gmail.com"
+            href="mailto:parmarsmit505@gmail.com"
             className="grid group grid-flow-col justify-start gap-6 items-center"
           >
             <svg
@@ -71,7 +71,7 @@ const Footer = () => {
               <h4 className="text-xl font-semibold text-white group-hover:text-slate-200 duration-300">
                 Email Address
               </h4>
-              <h5 className="text-sm">smitparmar.me @gmail.com</h5>
+              <h5 className="text-sm">parmarsmit505@gmail.com</h5>
             </div>
           </a>
           {/* What app */}
