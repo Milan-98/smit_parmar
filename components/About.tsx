@@ -35,7 +35,7 @@ const About = () => {
           </li>
           <li className="text-white font-medium ">Phone :</li>
           <li>
-            <a href="tel:91 6354127241">+91 63541 27241</a>{" "}
+            <a href="tel:91 6354127241">+91 63541 27241</a>
           </li>
         </ul>
         {/* //?------------ counter ---- */}
